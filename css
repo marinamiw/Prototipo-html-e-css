@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+article{
+    max-width: 850px;
+    margin: auto;
+    padding: 8px;
+    padding-top: 70px;
+
+}
+
+article p{
+    font-size: 16px;
+   line-height: 24px;
+   
+}
+
+
+a{
+    color:  #2E94CC;
+    
+}
+
+
+header{
+    
+    background: #2E94CC;
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.6px;
+
+
+}
+
+.post-author{
+    font-size: 12px;
+    line-height: 18px;
+    color: #6C6C6C;
+
+}
+
+.share-post, .links-title{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+
+
+color: #000000;
+}
+
+.share-post span{  /* o span permite in-line , diferente do div, ou seja, as coisas ficam do lado e nao pulam pra proxima linha */
+    margin-right: 4px;
+}
+
+.share-post img{
+
+vertical-align: middle;
+}
+
+.links-title{
+    margin-bottom: 12px;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.hero-image{
+    margin: 50px 0;
+}
+
+
+
+/* elemento dentro de um elemento separa por espaço, nesse caso é uma imagem dentro de uma classe */
+.hero-image img{
+    max-width: 100%;
+}
+
+
+h1{
+    margin: 0;
+    margin-bottom: 10px;
+    font-weight: 400;
+font-size: 52px;
+line-height: 58px;
+}
+
+/* id no css inicia com #, diferentemente da classe que é com o "." */
+#title-section{
+    margin-bottom: 50px;
+}
+
+#content-section{
+    max-width: 680px; 
+    margin: auto; /* para centralizar o elemento na pagina! */
+
+    
+}
+
+iframe{
+    margin: 50px 0;
+    max-width: 100%;
+}
+
+footer{
+    background-color: #F1F1F1;
+    max-width: 680px;
+    margin: auto;
+    padding: 20px 15px;
+    margin-bottom: 70px;
+}
+
+
+footer a{
+    font-weight: 400;
+   font-size: 16px;
+   line-height: 20px;
+}
+
+
+footer ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+footer ul li{
+
+    margin-bottom: 12px;
+}
+
+footer ul li:last-of-type{ /* pseudo class, nele so aplica oq deseja ao ultimo elemento da classe desejada, nesse caso ao ultimo li da lista */
+margin-bottom: 0;
+}
